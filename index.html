@@ -29,7 +29,34 @@
 
   <main class="container my-4">
 
-    <section id="destaques" class="mb-5">
+        <section id="destaques" class="mb-5">
+      <h2 class="mb-3">Destaques</h2>
+      <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://placehold.co/1200x400/343a40/ffffff?text=Cursos" class="d-block w-100" alt="Cursos da UCSAL">
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/1200x400/343a40/ffffff?text=Campus" class="d-block w-100" alt="Campus da UCSAL">
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/1200x400/343a40/ffffff?text=Eventos" class="d-block w-100" alt="Eventos da UCSAL">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
     </section>
 
     <section id="servicos" class="mb-5">
